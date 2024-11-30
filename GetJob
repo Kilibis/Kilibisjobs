@@ -11,7 +11,7 @@
 <script>
 function checkCode() {
 var code = document.getElementById("code").value;
-if (code === "1234") {
+if (code === "234A24") {
 window.location.href = "https://kilibisjobs.wordpress.com/";
 } else {
 alert("Incorrect code. Please try again.");
