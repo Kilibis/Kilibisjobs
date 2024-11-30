@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Access Code Required</title>
+</head>
+<body>
+<h1>Enter Access Code</h1>
+<form>
+<input type="password" id="code" placeholder="Enter code">
+<button onclick="checkCode()">Submit</button>
+</form>
+<script>
+function checkCode() {
+var code = document.getElementById("code").value;
+if (code === "1234") {
+window.location.href = "https://kilibisjobs.wordpress.com/";
+} else {
+alert("Incorrect code. Please try again.");
+}
+}
+</script>
+</body>
+</html>
